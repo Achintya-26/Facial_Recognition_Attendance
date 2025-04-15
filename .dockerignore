@@ -1,0 +1,27 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and environment files
+*.log
+.env
+.env.*
+
+# Temporary uploads and runtime files
+temp_uploads/
+known_faces/__pycache__/
+
+# OS / IDE-specific
+.DS_Store
+.vscode/
+.idea/
+
+# Face recognition/model data (if any gets generated)
+*.dat
+*.npy
+*.pkl
+
+# System-level junk
+Thumbs.db
